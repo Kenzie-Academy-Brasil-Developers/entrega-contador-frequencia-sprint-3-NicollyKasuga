@@ -1,0 +1,25 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+textarea{
+    width: 50vw;
+    min-width: 250px;
+    min-height: 105px;
+    height: 20vw;
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+button{
+    margin: 0 auto 0 auto;
+    border-radius: 1px;
+	background-color: aqua;
+	color: black;
+	padding: 10px 30px 10px 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+:hover button {
+    cursor: pointer;
+}
