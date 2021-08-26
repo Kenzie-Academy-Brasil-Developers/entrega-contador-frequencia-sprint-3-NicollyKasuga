@@ -1,25 +1,50 @@
-h1{
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
-textarea{
-    width: 50vw;
-    min-width: 250px;
-    min-height: 105px;
-    height: 20vw;
-    display: flex;
-    margin: 0 auto 0 auto;
+textarea {
+  height: 20vw;
+  display: flex;
+  margin: 0 auto 0 auto;
+  width: 50vw;
+  height: 160px;
 }
-button{
-    margin: 0 auto 0 auto;
-    border-radius: 1px;
-	background-color: aqua;
-	color: black;
-	padding: 10px 30px 10px 30px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+button {
+  margin: auto auto 40px;
+  border-radius: 1px;
+  background-color: aqua;
+  color: black;
+  padding: 10px 30px 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 14rem;
+  border-radius: 10px;
 }
 :hover button {
-    cursor: pointer;
+  cursor: pointer;
+}
+body {
+  background-image: linear-gradient(
+    to right top,
+    #051937,
+    #004d7a,
+    #008793,
+    #00bf72,
+    #a8eb12
+  );
+  width: 100vw;
+  height: 95vh;
+}
+
+@media (min-width: 720px) {
+  textarea {
+    width: 40vw;
+  }
+  body {
+    background: #4634b0;
+    background: -webkit-linear-gradient(top left, #4634b0, #fc5bc1);
+    background: -moz-linear-gradient(top left, #4634b0, #fc5bc1);
+    background: linear-gradient(to bottom right, #4634b0, #fc5bc1);
+  }
 }
